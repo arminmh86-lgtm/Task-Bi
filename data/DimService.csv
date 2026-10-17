@@ -1,0 +1,3 @@
+ServiceKey,ServiceName,BillingUnit,AssetsAllocated,UnitsPerAsset,UnitPrice_MnToman,InfrastructureCostPerAsset_MnToman,LaborCostPerAsset_MnToman,UtilizationPct
+COLO,Colocation,Rack,10,1,185,112,36,1.0
+CLOUD,Cloud,Virtual machine,10,20,5,50,10,1.0
