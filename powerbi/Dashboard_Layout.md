@@ -26,7 +26,7 @@
 1. **KPI cards:** Total Revenue, Total Cost, Profit, Profit Margin. Use the DAX measures in `Measures.dax`.
 2. **Clustered column chart:** Axis = `DimService[ServiceName]`; Values = Total Revenue, Total Cost, Profit. Use million Toman labels and no truncated axis for the margin visual.
 3. **Profit margin by service:** Bar chart with `DimService[ServiceName]` as category and `Profit Margin %` as value; data labels in percent.
-4. **Economics table:** Revenue, infrastructure cost, labor cost, total cost, profit, margin, billable units, profit per billable unit.
+4. **Economics table:** Revenue, non-labor direct cost, labor cost, total cost, profit, margin, billable units, profit per billable unit.
 5. **Key insight text:** Make the higher Cloud margin visible but pair it with a caveat that full capacity utilization is assumed.
 6. **Slicer:** `DimDate[Month Start]` if a date table is built; otherwise `Monthly_Fact[PeriodStart]`. With the supplied sample data there is only one month to select.
 
@@ -38,4 +38,4 @@
 4. Add visuals in the order above and format monetary values as `#,##0;(#,##0);-` with titles indicating Mn Toman.
 5. Validate the report against `excel/alpha_service_profitability.xlsx` before publishing.
 
-**Scope note:** This repository provides the source dataset, DAX, model, dashboard specification and Excel workbook. A native `.pbix` file is not generated here; the blueprint is intended for implementation in Power BI Desktop.
+**Scope note:** This repository provides the source dataset, DAX, model, dashboard specification and Excel workbook specification. A native `.pbix` file is not generated here; the blueprint is intended for implementation in Power BI Desktop.
