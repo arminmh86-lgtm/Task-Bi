@@ -1,0 +1,60 @@
+// Alpha service profitability — all monetary measures are in million Toman (Mn Toman).
+
+Total Revenue (Mn Toman) =
+SUM ( 'Monthly_Fact'[Revenue_MnToman] )
+
+Infrastructure Cost (Mn Toman) =
+SUM ( 'Monthly_Fact'[InfrastructureCost_MnToman] )
+
+Labor Cost (Mn Toman) =
+SUM ( 'Monthly_Fact'[LaborCost_MnToman] )
+
+Total Cost (Mn Toman) =
+[Infrastructure Cost (Mn Toman)] + [Labor Cost (Mn Toman)]
+
+Profit (Mn Toman) =
+[Total Revenue (Mn Toman)] - [Total Cost (Mn Toman)]
+
+Profit Margin % =
+DIVIDE ( [Profit (Mn Toman)], [Total Revenue (Mn Toman)] )
+
+Revenue Share % =
+DIVIDE (
+    [Total Revenue (Mn Toman)],
+    CALCULATE (
+        [Total Revenue (Mn Toman)],
+        REMOVEFILTERS ( 'DimService'[ServiceName] )
+    )
+)
+
+Profit Share % =
+DIVIDE (
+    [Profit (Mn Toman)],
+    CALCULATE ( [Profit (Mn Toman)], REMOVEFILTERS ( 'DimService'[ServiceName] ) )
+)
+
+Billable Units =
+SUM ( 'Monthly_Fact'[BillableUnits] )
+
+Revenue per Billable Unit (Mn Toman) =
+DIVIDE ( [Total Revenue (Mn Toman)], [Billable Units] )
+
+Cost per Billable Unit (Mn Toman) =
+DIVIDE ( [Total Cost (Mn Toman)], [Billable Units] )
+
+Profit per Billable Unit (Mn Toman) =
+DIVIDE ( [Profit (Mn Toman)], [Billable Units] )
+
+Profit Difference vs Colocation (Mn Toman) =
+VAR ColoProfit =
+    CALCULATE ( [Profit (Mn Toman)], REMOVEFILTERS ( 'DimService' ), 'DimService'[ServiceKey] = "COLO" )
+RETURN
+    [Profit (Mn Toman)] - ColoProfit
+
+// Optional calculated date table. Mark DimDate[Date] as the date column.
+// History template:
+// DimDate =
+// CALENDAR (
+//     DATE ( YEAR ( MIN ( 'Monthly_Fact'[PeriodStart] ) ), 1, 1 ),
+//     DATE ( YEAR ( MAX ( 'Monthly_Fact'[PeriodStart] ) ), 12, 31 )
+// )
