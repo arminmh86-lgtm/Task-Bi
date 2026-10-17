@@ -4,7 +4,7 @@ Total Revenue (Mn Toman) =
 SUM ( 'Monthly_Fact'[Revenue_MnToman] )
 
 Direct Cost (Mn Toman) =
-SUM ( 'Monthly_Fact'[InfrastructureAndDirectCost_MnToman] )
+SUM ( 'Monthly_Fact'[DirectCost_MnToman] )
 
 Labor Cost (Mn Toman) =
 SUM ( 'Monthly_Fact'[LaborCost_MnToman] )
