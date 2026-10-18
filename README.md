@@ -44,24 +44,17 @@ Cloud returns **30 million Toman more monthly profit** with lower revenue, and i
 Source: assumptions supplied in the task; no external data used.
 
 
-## GPU Ready Rack — Market Opportunity Assessment
-
-A Persian market-opportunity assessment for a GPU Ready Rack service has been added under [`gpu-ready-rack/`](gpu-ready-rack/). It includes the market analysis, exhibition playbook, target-account shortlist with weighted scoring, scenario-based revenue model, source register, and sample DAX measures. Figures for prices, rack counts, and win rates are assumptions for sensitivity analysis, not confirmed customer quotes or a validated forecast.
-
-- [Project README](gpu-ready-rack/README.md)
-- [Market report](gpu-ready-rack/reports/market_analysis_fa.md)
-- [Exhibition strategy](gpu-ready-rack/reports/exhibition_strategy_fa.md)
-- [Target-account shortlist CSV](gpu-ready-rack/data/target_account_shortlist.csv)
-- [Source register](gpu-ready-rack/data/sources.csv)
-
 
 ## GPU Ready Rack — Market Opportunity Project (Oct 2026)
 
-- [Project instructions and assumptions](gpu-ready-rack/README.md)
+- [Project overview and assumptions](gpu-ready-rack/README.md)
 - [Persian market analysis](gpu-ready-rack/reports/market_analysis_fa.md)
 - [Exhibition strategy](gpu-ready-rack/reports/exhibition_strategy_fa.md)
+- [Final implementation notes](gpu-ready-rack/reports/final_implementation_notes_fa.md)
 - [Target account shortlist (17 accounts)](gpu-ready-rack/data/target_account_shortlist.csv)
 - [Revenue scenarios](gpu-ready-rack/data/revenue_model.csv)
-- [Source register](gpu-ready-rack/data/sources.csv)
+- [Customer qualification canvas](gpu-ready-rack/data/customer_qualification_canvas.csv)
+- [Evidence register](gpu-ready-rack/data/sources.csv)
+- [Power BI data model and measures](gpu-ready-rack/powerbi/data_model.md)
 
-The workbook, formatted PDFs and complete source package are available in the delivered project bundle. Rack counts, prices and win rates are illustrative assumptions, not confirmed quotes or purchase intent. Public exhibition dates conflict; confirm with the organizer before committing spend.
+Rack counts, prices and win rates are illustrative assumptions, not confirmed quotes or purchase intent. Public exhibition dates conflict; confirm with the organizer before committing spend. The formatted Excel/PDF deliverables are included in the downloadable project bundle supplied with the task response.
