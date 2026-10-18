@@ -1,0 +1,18 @@
+ID,Company,Score,Priority,OpportunityType,DirectPipelineFlag,BaseRacks,WinProbability,ExpectedBaseARR_MnToman,PublicSource
+GPR001,"ابر آروان (ArvanCloud)",90,P1,"Channel partner / strategic cooperation",0,0,0,0,https://t.me/s/arvancloud
+GPR002,"فناپ (FANAP)",89,P1,"Hybrid buyer / strategic partner",1,3,0.25,4500,https://t.me/s/Fanapco?after=1601
+GPR003,"آسیاتک (Asiatech)",86,P1,"Hybrid buyer / co-sell partner",1,3,0.25,4500,https://telegram.me/s/asiatechco
+GPR004,"ارتباطات مبین‌نت (Mobinnet)",86,P1,"Hybrid buyer / channel partner",1,3,0.25,4500,https://t.me/s/Mobinnet_Telecom
+GPR005,"مرکز هوش مصنوعی شهرداری تهران / سازمان فاوا",81,P2,"Direct buyer; public-sector cycle",1,2,0.22,2640,https://www.tasnimnews.ir/fa/news/1405/06/16/3690791/
+GPR006,"همراه اول (MCI)",77,P2,"Direct enterprise buyer",1,4,0.18,4320,https://mci.ir
+GPR007,"ایرانسل (Irancell)",77,P2,"Direct enterprise buyer",1,4,0.18,4320,https://irancell.ir
+GPR008,"رایوکام (Rayocom)",75,P2,"Private AI / hybrid buyer or partner",1,2,0.18,2160,https://rayocom.ir/
+GPR009,"زفتا (Zafta)",74,P3,"Channel / implementation partner",0,0,0,0,https://zafta.ir/about/
+GPR010,"شاتل (Shatel)",73,P3,"Direct or channel; qualify",1,2,0.15,1800,https://www.shatel.ir/
+GPR011,"اسنپ (Snapp)",72,P3,"Direct buyer; qualify GPU workload",1,2,0.15,1800,https://snapp.recruitee.com/o/senior-software-engineer-map-1
+GPR012,"شرکت خدمات انفورماتیک (ISC)",72,P3,"Direct / banking ecosystem",1,2,0.15,1800,https://t.me/s/ISCChannel
+GPR013,"GPURUN",67,P3,"Partner / competitor intelligence",0,0,0,0,https://gpurun.com/
+GPR014,"بانک پاسارگاد",64,P4,"Direct buyer; long cycle",1,2,0.08,960,https://www.linkedin.com/
+GPR015,"دیجی‌کالا (Digikala)",63,P4,"Direct buyer; qualify workload",1,2,0.08,960,https://www.digikala.com/
+GPR016,"تپسی (Tapsi)",62,P4,"Direct buyer; selective qualification",1,1,0.08,480,https://www.linkedin.com/
+GPR017,"فردوسی کلاد (Ferdowsi Cloud)",63,P4,"GPU ecosystem partner / competitor",0,0,0,0,https://ferdowsi.cloud/en/services/gpu
