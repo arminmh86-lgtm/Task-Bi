@@ -1,0 +1,6 @@
+Criterion,Weight,Definition
+Need fit,0.30,"Evidence of high-density/AI workload and physical hosting need"
+Buying capacity,0.25,"Likely ability to fund rack, power, cooling and network"
+Reachability,0.20,"Practical access to a sponsor/technical decision-maker"
+Urgency,0.15,"Public trigger or plausible deployment timing; validate with buyer"
+Ecosystem leverage,0.10,"Potential to create referrals, co-sell, integration or reusable delivery"
