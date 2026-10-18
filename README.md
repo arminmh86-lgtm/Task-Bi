@@ -42,3 +42,14 @@ Cloud returns **30 million Toman more monthly profit** with lower revenue, and i
 - A native Power BI `.pbix` file is not generated; the repository contains the data, DAX, model and dashboard blueprint for building it in Power BI Desktop.
 
 Source: assumptions supplied in the task; no external data used.
+
+
+## GPU Ready Rack — Market Opportunity Assessment
+
+A Persian market-opportunity assessment for a GPU Ready Rack service has been added under [`gpu-ready-rack/`](gpu-ready-rack/). It includes the market analysis, exhibition playbook, target-account shortlist with weighted scoring, scenario-based revenue model, source register, and sample DAX measures. Figures for prices, rack counts, and win rates are assumptions for sensitivity analysis, not confirmed customer quotes or a validated forecast.
+
+- [Project README](gpu-ready-rack/README.md)
+- [Market report](gpu-ready-rack/reports/market_analysis_fa.md)
+- [Exhibition strategy](gpu-ready-rack/reports/exhibition_strategy_fa.md)
+- [Target-account shortlist CSV](gpu-ready-rack/data/target_account_shortlist.csv)
+- [Source register](gpu-ready-rack/data/sources.csv)
