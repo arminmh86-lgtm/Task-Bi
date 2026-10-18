@@ -53,3 +53,15 @@ A Persian market-opportunity assessment for a GPU Ready Rack service has been ad
 - [Exhibition strategy](gpu-ready-rack/reports/exhibition_strategy_fa.md)
 - [Target-account shortlist CSV](gpu-ready-rack/data/target_account_shortlist.csv)
 - [Source register](gpu-ready-rack/data/sources.csv)
+
+
+## GPU Ready Rack — Market Opportunity Project (Oct 2026)
+
+- [Project instructions and assumptions](gpu-ready-rack/README.md)
+- [Persian market analysis](gpu-ready-rack/reports/market_analysis_fa.md)
+- [Exhibition strategy](gpu-ready-rack/reports/exhibition_strategy_fa.md)
+- [Target account shortlist (17 accounts)](gpu-ready-rack/data/target_account_shortlist.csv)
+- [Revenue scenarios](gpu-ready-rack/data/revenue_model.csv)
+- [Source register](gpu-ready-rack/data/sources.csv)
+
+The workbook, formatted PDFs and complete source package are available in the delivered project bundle. Rack counts, prices and win rates are illustrative assumptions, not confirmed quotes or purchase intent. Public exhibition dates conflict; confirm with the organizer before committing spend.
