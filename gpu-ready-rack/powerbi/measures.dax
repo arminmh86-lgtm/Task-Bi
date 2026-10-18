@@ -1,0 +1,9 @@
+-- Illustrative pipeline measures. Tables/field names may need mapping to the full workbook model.
+Target Accounts = COUNTROWS ( Targets )
+Direct Pipeline Accounts = CALCULATE ( COUNTROWS ( Targets ), Targets[DirectPipelineFlag] = 1 )
+P1 Accounts = CALCULATE ( COUNTROWS ( Targets ), Targets[Priority] = "P1" )
+Base ARR (Mn Toman) = SUM ( Revenue_Model[BaseARR_MnToman] )
+Expected Base ARR (Mn Toman) = SUM ( Revenue_Model[ExpectedBaseARR_MnToman] )
+Direct Opportunity Count = CALCULATE ( COUNTROWS ( Targets ), Targets[DirectPipelineFlag] = 1 )
+Average Account Score = AVERAGE ( Targets[Score] )
+Qualified Accounts = CALCULATE ( COUNTROWS ( Targets ), Targets[Stage] = "Qualified" )
