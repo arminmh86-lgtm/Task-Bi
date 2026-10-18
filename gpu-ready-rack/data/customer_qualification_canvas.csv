@@ -1,0 +1,6 @@
+AccountID,Company,LeadOwner,Stage,UseCase,GPUModelAndCount,GPUStatus,Location,PowerKWPerRack,Cooling,PowerRedundancy,NetworkLatencyAndBandwidth,DataResidency,TargetInstallDate,BudgetOwner,BudgetStatus,ProcurementPath,TechnicalSponsor,PhysicalBottleneck,IndicativeRacks,NextAction,NextActionOwner,NextActionDue,DisqualificationReason
+GPR002,FANAP,,,,,,,,,,,,,,,,,,,,,,
+GPR003,Asiatech,,,,,,,,,,,,,,,,,,,,,,
+GPR004,Mobinnet,,,,,,,,,,,,,,,,,,,,,,
+GPR005,Tehran Municipal AI Center / FAVA,,,,,,,,,,,,,,,,,,,,,,
+GPR001,ArvanCloud (partner route),,,,,,,,,,,,,,,,,,,,,,,
