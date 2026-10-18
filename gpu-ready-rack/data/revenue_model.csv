@@ -1,8 +1,8 @@
 Scenario,MonthlyPrice_MnToman,ContractMonths,UnweightedBaseRacks,UnweightedBaseARR_MnToman,ExpectedProbabilityWeightedARR_MnToman,Status
-Low,250,12,32,96000,Not calculated for high-level summary,Illustrative only
+Low,250,12,32,96000,17370,Illustrative only
 Base,500,12,32,192000,34740,Illustrative only
-High,900,12,32,345600,Not calculated for high-level summary,Illustrative only
+High,900,12,32,345600,62532,Illustrative only
 
 Formula,Value,Notes
-ARR,Monthly price × rack count × 12,Not profit and excludes CAPEX/energy/tax/install/churn/collection timing
+ARR,Monthly price × rack count × 12,Not profit; excludes CAPEX/energy/tax/install/churn/collection timing
 Expected ARR,Account base ARR × assumed win probability,Scenario assumption; replace with observed CRM rates
