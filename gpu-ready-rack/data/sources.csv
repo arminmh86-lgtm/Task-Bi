@@ -1,6 +1,6 @@
 SourceID,Topic,PublisherOrDomain,DateChecked,UseAndLimitation,URL
 SRC01,Exhibition reschedule,Vista summary,2026-10-14,"Reports 20-22 Dec 2026; conflicting public dates, verify with organizer",https://vista.ir/2610/548/5ehn3/
-SRC02,ArvanCloud GPU,ArvanCloud public channel,2026-10,"GPU server-owner ecosystem; partner/competitor possibility, no evidence it buys Alpha racks",https://t.me/s/arvancloud
+SRC02,ArvanCloud GPU,ArvanCloud public channel,2026-10,"GPU server-owner ecosystem; partner/competitor possibility; no evidence it buys Alpha racks",https://t.me/s/arvancloud
 SRC03,FANAP AI infrastructure,FANAP public channel,2025-03,"AI data-center/cloud direction; not a confirmed rack order",https://t.me/s/Fanapco?after=1601
 SRC04,Asiatech cloud and data center,Asiatech public channel,2026-10,"Cloud, dedicated server, data center and colocation portfolio; intent unverified",https://telegram.me/s/asiatechco
 SRC05,Mobinnet enterprise/cloud,Mobinnet public channel,2026-10,"Enterprise, cloud and data center adjacency; GPU need unverified",https://t.me/s/Mobinnet_Telecom
@@ -13,4 +13,5 @@ SRC11,GPURUN GPU/HPC,GPURUN official site,2026-10,"GPU service ecosystem; potent
 SRC12,Ferdowsi Cloud GPU,Ferdowsi Cloud official site,2026-10,"GPU rental/HPC; potential partner/competitor",https://ferdowsi.cloud/en/services/gpu
 SRC13,Pasargad Bank AI,Bank Pasargad public LinkedIn,2024-06,"AI identity verification use case; not rack demand proof",https://www.linkedin.com/
 SRC14,ISC banking infrastructure,ISC public channel,2026-10,"Banking network infrastructure role; AI demand unverified",https://t.me/s/ISCChannel
-SRC15,Exhibition audience,UN-Habitat,2026-10,"Smart-city and AI exhibition context; date inconsistent across pages",https://urbanoctober.unhabitat.org/7th-smart-city-artificial-intelligence-housing-and-building-exhibition
+SRC15,Exhibition audience,UN-Habitat,2026-10,"Lists the 7th smart-city/AI exhibition as 31 Oct 2026; differs from secondary local listing; verify",https://urbanoctober.unhabitat.org/7th-smart-city-artificial-intelligence-housing-and-building-exhibition
+SRC16,Previous exhibition edition,IranPress,2025-11-04,"Reports the 6th edition ran 4-6 Nov 2025; previous edition only",https://iranpress.com/content/330188/iran-smart-city-ai-exhibition-opens-tehran
